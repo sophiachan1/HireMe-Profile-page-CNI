@@ -1,0 +1,55 @@
+body {
+    background-color: #ff7096;
+}
+
+h1 {
+    text-align: center;
+    color: #2cdb4a;
+}
+
+img {
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.column {
+    float: left;
+    padding: 5px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.a {
+    color: #51b9ed;
+}
+
+.b {
+    color: #9e0e48;
+}
+
+.c {
+    color: #a921ed;
+}
+
+.astro {
+    border: 2px solid black;
+}
+
+.bio {
+    text-align: center;
+    font-family: Special Elite;
+}
+
+h1 {
+    font-family: Sedgwick Ave;
+}
+
+h2 {
+    font-family: Mouse Memoirs;
+}
